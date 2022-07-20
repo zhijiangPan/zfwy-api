@@ -1,0 +1,21 @@
+{
+    "name": "zfwy\/api",
+    "description": "A RESTful API package for the Laravel framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhijiangPan",
+            "email": "zhijiangpan@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zfwy\\Api\\": "src"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    }
+
+}
