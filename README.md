@@ -1,4 +1,4 @@
-<h1 align="center"> Response API </h1>
+<h1 align="center"> Laravel Response API </h1>
 
 <p align="center"> A RESTful API package for the Laravel framework. </p>
 
@@ -16,7 +16,7 @@
 
 #### 开发安装
 ```shell
-$ composer config repositories.zfwy-api vcs https://git.zfwy100.com/common-package/zfwy-api-package.git
+$ composer config repositories.zfwy-api vcs https://github.com/zhijiangPan/zfwy-api.git
 $ composer require zfwy/api:dev-main
 ```
 
@@ -30,18 +30,8 @@ $ composer require zfwy/api:dev-main
 #### 线上环境安装
 
 ```shell
-$ composer config repositories.zfwy-api vcs https://git.zfwy100.com/common-package/zfwy-api-package.git
+$ composer config repositories.zfwy-api vcs https://github.com/zhijiangPan/zfwy-api.git
 $ composer require zfwy/api:~1.0
-```
-
-### 发布配置文件
-
-```shell
-# 发布配置文件
-$ php artisan vendor:publish --provider="Chuangke\Api\ApiServiceProvider" --tag="config"
-
-# 发布语言文件
-$ php artisan vendor:publish --provider="Chuangke\Api\ApiServiceProvider" --tag="lang"
 ```
 
 ### 修改 `App\Exceptions\Handler`
